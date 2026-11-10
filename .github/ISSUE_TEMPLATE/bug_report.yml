@@ -1,0 +1,81 @@
+name: Bug report
+description: Report a problem with XMApp
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a problem.
+
+        Do not include camera passwords, serial numbers, IP addresses, or
+        footage. Redact them from logs and screenshots before posting.
+  - type: input
+    id: app-version
+    attributes:
+      label: XMApp version
+      description: Shown in About or the app store listing.
+      placeholder: "1.0.0 (build 1)"
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - iOS
+        - Android
+    validations:
+      required: true
+  - type: input
+    id: os-version
+    attributes:
+      label: OS version
+      placeholder: "iOS 18.1 / Android 14"
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Phone or tablet
+      placeholder: "iPhone 15 / Pixel 8"
+    validations:
+      required: false
+  - type: input
+    id: camera
+    attributes:
+      label: Camera or NVR model
+      description: Model and firmware version, if known.
+      placeholder: "XM camera, firmware ..."
+    validations:
+      required: false
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: What did you do before the problem appeared?
+      placeholder: |
+        1. Open ...
+        2. Tap ...
+        3. See ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual result
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or screenshots
+      description: Remove passwords, serial numbers, IP addresses, and footage.
+    validations:
+      required: false

@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Privacy policy
+    url: https://dimerr.github.io/xmapp/privacy/
+    about: Read how XMApp handles data.
+  - name: Security report
+    url: mailto:dimerrrr@icloud.com
+    about: Report security issues privately instead of opening a public issue.
