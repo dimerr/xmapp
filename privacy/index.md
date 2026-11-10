@@ -4,8 +4,6 @@ title: Privacy Policy
 permalink: /privacy/
 ---
 
-# Privacy Policy
-
 **Effective date:** 10 November 2026  
 **App:** XMApp  
 **Developer:** Dmitry Ermakov, individual developer  
