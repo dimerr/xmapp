@@ -4,8 +4,6 @@ title: Installer mode
 permalink: /installer/
 ---
 
-# Installer mode
-
 Installer mode is a visibility setting for installers and integrators. It
 reveals advanced settings that normal users do not need.
 
