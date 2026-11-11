@@ -25,7 +25,7 @@ where it goes, and the choices you have.
 - To connect to cameras, XMApp uses XCloudSDK, which contacts P2P, status, and
   licence servers. Those servers receive technical connection data such as the
   camera serial number and network address.
-- You can configure custom P2P and status servers in Expert settings.
+- You can configure custom P2P and status servers in Installer settings.
 
 ## Information the app processes
 
@@ -113,7 +113,7 @@ advertising or cross-app tracking.
 The SDK vendor's own privacy policy and terms apply to its processing. XMApp is
 not affiliated with JF Tech or XCloudSDK.
 
-If you configure custom P2P or status servers in Expert settings, those servers
+If you configure custom P2P or status servers in Installer settings, those servers
 receive the connection data instead. Licence validation may still contact the
 SDK vendor's cloud service.
 

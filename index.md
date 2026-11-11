@@ -7,6 +7,7 @@ XMApp is a mobile client for XM-compatible cameras and network video
 recorders.
 
 - [Privacy policy](privacy/)
+- [Installer mode](installer/)
 - [Issue tracker](https://github.com/dimerr/xmapp/issues)
 - [Report a bug](https://github.com/dimerr/xmapp/issues/new?template=bug_report.yml)
 
